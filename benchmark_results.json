@@ -1,0 +1,1797 @@
+{
+ "meta": {
+  "executed": "2026-11-22T11:15:14+01:00",
+  "module_sha256": "ae98038241481556",
+  "numpy": "2.5.5"
+ },
+ "records": [
+  {
+   "calculated": 50.0,
+   "reference": 50.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.05e-06,
+   "passed": true,
+   "test": 1,
+   "case": "Central point load, L = 10 m, P = 100 kN",
+   "representation": "1 element, internal load",
+   "quantity": "Reaction A (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 50.0,
+   "reference": 50.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.05e-06,
+   "passed": true,
+   "test": 1,
+   "case": "Central point load, L = 10 m, P = 100 kN",
+   "representation": "1 element, internal load",
+   "quantity": "Reaction B (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 250.0,
+   "reference": 250.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.2499999999999999e-06,
+   "passed": true,
+   "test": 1,
+   "case": "Central point load, L = 10 m, P = 100 kN",
+   "representation": "1 element, internal load",
+   "quantity": "Maximum sagging moment (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 5.0,
+   "reference": 5.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.005e-06,
+   "passed": true,
+   "test": 1,
+   "case": "Central point load, L = 10 m, P = 100 kN",
+   "representation": "1 element, internal load",
+   "quantity": "Location of maximum moment (m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "test": 1,
+   "case": "Central point load, L = 10 m, P = 100 kN",
+   "representation": "1 element, internal load",
+   "quantity": "Internal verification suite (8 checks)",
+   "passed": true,
+   "calculated": null,
+   "reference": null,
+   "absolute_error": null,
+   "allowed_error": null,
+   "tol": "1e-6"
+  },
+  {
+   "calculated": 50.0,
+   "reference": 50.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.05e-06,
+   "passed": true,
+   "test": 1,
+   "case": "Central point load, L = 10 m, P = 100 kN",
+   "representation": "2 elements, nodal load",
+   "quantity": "Reaction A (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 50.0,
+   "reference": 50.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.05e-06,
+   "passed": true,
+   "test": 1,
+   "case": "Central point load, L = 10 m, P = 100 kN",
+   "representation": "2 elements, nodal load",
+   "quantity": "Reaction B (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 249.99999999999994,
+   "reference": 250.0,
+   "absolute_error": 5.684341886080802e-14,
+   "relative_error": 2.2737367544323206e-16,
+   "allowed_error": 1.2499999999999999e-06,
+   "passed": true,
+   "test": 1,
+   "case": "Central point load, L = 10 m, P = 100 kN",
+   "representation": "2 elements, nodal load",
+   "quantity": "Maximum sagging moment (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 5.0,
+   "reference": 5.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.005e-06,
+   "passed": true,
+   "test": 1,
+   "case": "Central point load, L = 10 m, P = 100 kN",
+   "representation": "2 elements, nodal load",
+   "quantity": "Location of maximum moment (m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "test": 1,
+   "case": "Central point load, L = 10 m, P = 100 kN",
+   "representation": "2 elements, nodal load",
+   "quantity": "Internal verification suite (8 checks)",
+   "passed": true,
+   "calculated": null,
+   "reference": null,
+   "absolute_error": null,
+   "allowed_error": null,
+   "tol": "1e-6"
+  },
+  {
+   "calculated": 100.0,
+   "reference": 100.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.1e-06,
+   "passed": true,
+   "test": 2,
+   "case": "Full-span UDL 20 kN/m",
+   "representation": "1 element",
+   "quantity": "Reaction A (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 100.0,
+   "reference": 100.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.1e-06,
+   "passed": true,
+   "test": 2,
+   "case": "Full-span UDL 20 kN/m",
+   "representation": "1 element",
+   "quantity": "Reaction B (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 250.0,
+   "reference": 250.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.2499999999999999e-06,
+   "passed": true,
+   "test": 2,
+   "case": "Full-span UDL 20 kN/m",
+   "representation": "1 element",
+   "quantity": "Maximum sagging moment (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 5.0,
+   "reference": 5.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.005e-06,
+   "passed": true,
+   "test": 2,
+   "case": "Full-span UDL 20 kN/m",
+   "representation": "1 element",
+   "quantity": "Location of maximum moment (m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "test": 2,
+   "case": "Full-span UDL 20 kN/m",
+   "representation": "1 element",
+   "quantity": "Internal verification suite (8 checks)",
+   "passed": true,
+   "calculated": null,
+   "reference": null,
+   "absolute_error": null,
+   "allowed_error": null,
+   "tol": "1e-6"
+  },
+  {
+   "calculated": 100.00000000000023,
+   "reference": 100.0,
+   "absolute_error": 2.2737367544323206e-13,
+   "relative_error": 2.2737367544323206e-15,
+   "allowed_error": 1.1e-06,
+   "passed": true,
+   "test": 2,
+   "case": "Full-span UDL 20 kN/m",
+   "representation": "4 elements",
+   "quantity": "Reaction A (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 100.0,
+   "reference": 100.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.1e-06,
+   "passed": true,
+   "test": 2,
+   "case": "Full-span UDL 20 kN/m",
+   "representation": "4 elements",
+   "quantity": "Reaction B (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 249.9999999999998,
+   "reference": 250.0,
+   "absolute_error": 1.9895196601282805e-13,
+   "relative_error": 7.958078640513122e-16,
+   "allowed_error": 1.2499999999999999e-06,
+   "passed": true,
+   "test": 2,
+   "case": "Full-span UDL 20 kN/m",
+   "representation": "4 elements",
+   "quantity": "Maximum sagging moment (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 5.0,
+   "reference": 5.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.005e-06,
+   "passed": true,
+   "test": 2,
+   "case": "Full-span UDL 20 kN/m",
+   "representation": "4 elements",
+   "quantity": "Location of maximum moment (m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "test": 2,
+   "case": "Full-span UDL 20 kN/m",
+   "representation": "4 elements",
+   "quantity": "Internal verification suite (8 checks)",
+   "passed": true,
+   "calculated": null,
+   "reference": null,
+   "absolute_error": null,
+   "allowed_error": null,
+   "tol": "1e-6"
+  },
+  {
+   "calculated": 60.0,
+   "reference": 60.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.06e-06,
+   "passed": true,
+   "test": 3,
+   "case": "Eccentric point load, P = 100 kN at 4 m",
+   "representation": "1 element, internal load",
+   "quantity": "Reaction A (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 40.0,
+   "reference": 40.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.04e-06,
+   "passed": true,
+   "test": 3,
+   "case": "Eccentric point load, P = 100 kN at 4 m",
+   "representation": "1 element, internal load",
+   "quantity": "Reaction B (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 240.0,
+   "reference": 240.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.24e-06,
+   "passed": true,
+   "test": 3,
+   "case": "Eccentric point load, P = 100 kN at 4 m",
+   "representation": "1 element, internal load",
+   "quantity": "Maximum sagging moment (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 4.0,
+   "reference": 4.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.004e-06,
+   "passed": true,
+   "test": 3,
+   "case": "Eccentric point load, P = 100 kN at 4 m",
+   "representation": "1 element, internal load",
+   "quantity": "Location of maximum moment (m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "test": 3,
+   "case": "Eccentric point load, P = 100 kN at 4 m",
+   "representation": "1 element, internal load",
+   "quantity": "Internal verification suite (8 checks)",
+   "passed": true,
+   "calculated": null,
+   "reference": null,
+   "absolute_error": null,
+   "allowed_error": null,
+   "tol": "1e-6"
+  },
+  {
+   "calculated": 60.0,
+   "reference": 60.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.06e-06,
+   "passed": true,
+   "test": 3,
+   "case": "Eccentric point load, P = 100 kN at 4 m",
+   "representation": "2 elements, nodal load",
+   "quantity": "Reaction A (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 40.0,
+   "reference": 40.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.04e-06,
+   "passed": true,
+   "test": 3,
+   "case": "Eccentric point load, P = 100 kN at 4 m",
+   "representation": "2 elements, nodal load",
+   "quantity": "Reaction B (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 240.0,
+   "reference": 240.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.24e-06,
+   "passed": true,
+   "test": 3,
+   "case": "Eccentric point load, P = 100 kN at 4 m",
+   "representation": "2 elements, nodal load",
+   "quantity": "Maximum sagging moment (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 4.0,
+   "reference": 4.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.004e-06,
+   "passed": true,
+   "test": 3,
+   "case": "Eccentric point load, P = 100 kN at 4 m",
+   "representation": "2 elements, nodal load",
+   "quantity": "Location of maximum moment (m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "test": 3,
+   "case": "Eccentric point load, P = 100 kN at 4 m",
+   "representation": "2 elements, nodal load",
+   "quantity": "Internal verification suite (8 checks)",
+   "passed": true,
+   "calculated": null,
+   "reference": null,
+   "absolute_error": null,
+   "allowed_error": null,
+   "tol": "1e-6"
+  },
+  {
+   "calculated": 42.99999999999999,
+   "reference": 43.0,
+   "absolute_error": 7.105427357601002e-15,
+   "relative_error": 1.652424966883954e-16,
+   "allowed_error": 1.043e-06,
+   "passed": true,
+   "test": 4,
+   "case": "Two point loads, 40 kN at 3 m and 50 kN at 7 m",
+   "representation": "1 element, internal loads",
+   "quantity": "Reaction A (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 47.00000000000001,
+   "reference": 47.0,
+   "absolute_error": 7.105427357601002e-15,
+   "relative_error": 1.5117930548087238e-16,
+   "allowed_error": 1.0469999999999999e-06,
+   "passed": true,
+   "test": 4,
+   "case": "Two point loads, 40 kN at 3 m and 50 kN at 7 m",
+   "representation": "1 element, internal loads",
+   "quantity": "Reaction B (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 140.99999999999994,
+   "reference": 141.0,
+   "absolute_error": 5.684341886080802e-14,
+   "relative_error": 4.0314481461565967e-16,
+   "allowed_error": 1.141e-06,
+   "passed": true,
+   "test": 4,
+   "case": "Two point loads, 40 kN at 3 m and 50 kN at 7 m",
+   "representation": "1 element, internal loads",
+   "quantity": "Maximum sagging moment (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 7.0,
+   "reference": 7.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.007e-06,
+   "passed": true,
+   "test": 4,
+   "case": "Two point loads, 40 kN at 3 m and 50 kN at 7 m",
+   "representation": "1 element, internal loads",
+   "quantity": "Location of maximum moment (m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "test": 4,
+   "case": "Two point loads, 40 kN at 3 m and 50 kN at 7 m",
+   "representation": "1 element, internal loads",
+   "quantity": "Internal verification suite (8 checks)",
+   "passed": true,
+   "calculated": null,
+   "reference": null,
+   "absolute_error": null,
+   "allowed_error": null,
+   "tol": "1e-6"
+  },
+  {
+   "calculated": 42.99999999999999,
+   "reference": 43.0,
+   "absolute_error": 7.105427357601002e-15,
+   "relative_error": 1.652424966883954e-16,
+   "allowed_error": 1.043e-06,
+   "passed": true,
+   "test": 4,
+   "case": "Two point loads, 40 kN at 3 m and 50 kN at 7 m",
+   "representation": "1 element, internal loads",
+   "quantity": "Shear before P1 (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 2.999999999999993,
+   "reference": 3.0,
+   "absolute_error": 7.105427357601002e-15,
+   "relative_error": 2.3684757858670005e-15,
+   "allowed_error": 1.003e-06,
+   "passed": true,
+   "test": 4,
+   "case": "Two point loads, 40 kN at 3 m and 50 kN at 7 m",
+   "representation": "1 element, internal loads",
+   "quantity": "Shear after P1 (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 2.999999999999993,
+   "reference": 3.0,
+   "absolute_error": 7.105427357601002e-15,
+   "relative_error": 2.3684757858670005e-15,
+   "allowed_error": 1.003e-06,
+   "passed": true,
+   "test": 4,
+   "case": "Two point loads, 40 kN at 3 m and 50 kN at 7 m",
+   "representation": "1 element, internal loads",
+   "quantity": "Shear before P2 (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": -47.00000000000001,
+   "reference": -47.0,
+   "absolute_error": 7.105427357601002e-15,
+   "relative_error": 1.5117930548087238e-16,
+   "allowed_error": 1.0469999999999999e-06,
+   "passed": true,
+   "test": 4,
+   "case": "Two point loads, 40 kN at 3 m and 50 kN at 7 m",
+   "representation": "1 element, internal loads",
+   "quantity": "Shear after P2 (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 43.000000000000114,
+   "reference": 43.0,
+   "absolute_error": 1.1368683772161603e-13,
+   "relative_error": 2.6438799470143262e-15,
+   "allowed_error": 1.043e-06,
+   "passed": true,
+   "test": 4,
+   "case": "Two point loads, 40 kN at 3 m and 50 kN at 7 m",
+   "representation": "3 elements, nodal loads",
+   "quantity": "Reaction A (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 46.99999999999994,
+   "reference": 47.0,
+   "absolute_error": 5.684341886080802e-14,
+   "relative_error": 1.209434443846979e-15,
+   "allowed_error": 1.0469999999999999e-06,
+   "passed": true,
+   "test": 4,
+   "case": "Two point loads, 40 kN at 3 m and 50 kN at 7 m",
+   "representation": "3 elements, nodal loads",
+   "quantity": "Reaction B (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 141.0,
+   "reference": 141.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.141e-06,
+   "passed": true,
+   "test": 4,
+   "case": "Two point loads, 40 kN at 3 m and 50 kN at 7 m",
+   "representation": "3 elements, nodal loads",
+   "quantity": "Maximum sagging moment (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 7.0,
+   "reference": 7.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.007e-06,
+   "passed": true,
+   "test": 4,
+   "case": "Two point loads, 40 kN at 3 m and 50 kN at 7 m",
+   "representation": "3 elements, nodal loads",
+   "quantity": "Location of maximum moment (m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "test": 4,
+   "case": "Two point loads, 40 kN at 3 m and 50 kN at 7 m",
+   "representation": "3 elements, nodal loads",
+   "quantity": "Internal verification suite (8 checks)",
+   "passed": true,
+   "calculated": null,
+   "reference": null,
+   "absolute_error": null,
+   "allowed_error": null,
+   "tol": "1e-6"
+  },
+  {
+   "calculated": 70.0,
+   "reference": 70.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.07e-06,
+   "passed": true,
+   "test": 5,
+   "case": "UDL 10 kN/m with 40 kN at midspan",
+   "representation": "1 element, internal load",
+   "quantity": "Reaction A (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 70.0,
+   "reference": 70.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.07e-06,
+   "passed": true,
+   "test": 5,
+   "case": "UDL 10 kN/m with 40 kN at midspan",
+   "representation": "1 element, internal load",
+   "quantity": "Reaction B (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 225.0,
+   "reference": 225.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.225e-06,
+   "passed": true,
+   "test": 5,
+   "case": "UDL 10 kN/m with 40 kN at midspan",
+   "representation": "1 element, internal load",
+   "quantity": "Maximum sagging moment (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 5.0,
+   "reference": 5.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.005e-06,
+   "passed": true,
+   "test": 5,
+   "case": "UDL 10 kN/m with 40 kN at midspan",
+   "representation": "1 element, internal load",
+   "quantity": "Location of maximum moment (m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "test": 5,
+   "case": "UDL 10 kN/m with 40 kN at midspan",
+   "representation": "1 element, internal load",
+   "quantity": "Internal verification suite (8 checks)",
+   "passed": true,
+   "calculated": null,
+   "reference": null,
+   "absolute_error": null,
+   "allowed_error": null,
+   "tol": "1e-6"
+  },
+  {
+   "calculated": 20.0,
+   "reference": 20.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.02e-06,
+   "passed": true,
+   "test": 5,
+   "case": "UDL 10 kN/m with 40 kN at midspan",
+   "representation": "1 element, internal load",
+   "quantity": "Shear before P (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": -20.0,
+   "reference": -20.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.02e-06,
+   "passed": true,
+   "test": 5,
+   "case": "UDL 10 kN/m with 40 kN at midspan",
+   "representation": "1 element, internal load",
+   "quantity": "Shear after P (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 69.99999999999997,
+   "reference": 70.0,
+   "absolute_error": 2.842170943040401e-14,
+   "relative_error": 4.0602442043434295e-16,
+   "allowed_error": 1.07e-06,
+   "passed": true,
+   "test": 5,
+   "case": "UDL 10 kN/m with 40 kN at midspan",
+   "representation": "2 elements, nodal load",
+   "quantity": "Reaction A (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 69.99999999999994,
+   "reference": 70.0,
+   "absolute_error": 5.684341886080802e-14,
+   "relative_error": 8.120488408686859e-16,
+   "allowed_error": 1.07e-06,
+   "passed": true,
+   "test": 5,
+   "case": "UDL 10 kN/m with 40 kN at midspan",
+   "representation": "2 elements, nodal load",
+   "quantity": "Reaction B (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 224.99999999999983,
+   "reference": 225.0,
+   "absolute_error": 1.7053025658242404e-13,
+   "relative_error": 7.579122514774402e-16,
+   "allowed_error": 1.225e-06,
+   "passed": true,
+   "test": 5,
+   "case": "UDL 10 kN/m with 40 kN at midspan",
+   "representation": "2 elements, nodal load",
+   "quantity": "Maximum sagging moment (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 5.0,
+   "reference": 5.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.005e-06,
+   "passed": true,
+   "test": 5,
+   "case": "UDL 10 kN/m with 40 kN at midspan",
+   "representation": "2 elements, nodal load",
+   "quantity": "Location of maximum moment (m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "test": 5,
+   "case": "UDL 10 kN/m with 40 kN at midspan",
+   "representation": "2 elements, nodal load",
+   "quantity": "Internal verification suite (8 checks)",
+   "passed": true,
+   "calculated": null,
+   "reference": null,
+   "absolute_error": null,
+   "allowed_error": null,
+   "tol": "1e-6"
+  },
+  {
+   "calculated": 150.13498342074982,
+   "reference": 150.13498342148733,
+   "absolute_error": 7.375149380095536e-10,
+   "relative_error": 4.91234568520957e-12,
+   "allowed_error": 2.501349834214873e-06,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 1",
+   "quantity": "Reaction A vs independent Three-Moment (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-08
+   }
+  },
+  {
+   "calculated": 283.4623688509255,
+   "reference": 283.462368849445,
+   "absolute_error": 1.4804868442297447e-09,
+   "relative_error": 5.222869089251398e-12,
+   "allowed_error": 3.83462368849445e-06,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 1",
+   "quantity": "Reaction B vs independent Three-Moment (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-08
+   }
+  },
+  {
+   "calculated": 102.38941966280512,
+   "reference": 102.38941966458597,
+   "absolute_error": 1.7808474694902543e-09,
+   "relative_error": 1.7392885664593784e-11,
+   "allowed_error": 2.02389419664586e-06,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 1",
+   "quantity": "Reaction C vs independent Three-Moment (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-08
+   }
+  },
+  {
+   "calculated": 350.2865952664092,
+   "reference": 350.2865952645184,
+   "absolute_error": 1.890839484985918e-09,
+   "relative_error": 5.397978428372497e-12,
+   "allowed_error": 4.502865952645184e-06,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 1",
+   "quantity": "Reaction D vs independent Three-Moment (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-08
+   }
+  },
+  {
+   "calculated": 163.72663279911023,
+   "reference": 163.7266327999633,
+   "absolute_error": 8.530776085535763e-10,
+   "relative_error": 5.2103777740048135e-12,
+   "allowed_error": 2.637266327999633e-06,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 1",
+   "quantity": "Reaction E vs independent Three-Moment (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-08
+   }
+  },
+  {
+   "calculated": -179.19009947550109,
+   "reference": -179.19009947107597,
+   "absolute_error": 4.425118049766752e-09,
+   "relative_error": 2.469510348411316e-11,
+   "allowed_error": 2.7919009947107597e-06,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 1",
+   "quantity": "Support moment B vs independent Three-Moment (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-08
+   }
+  },
+  {
+   "calculated": -30.807309709611125,
+   "reference": -30.80730971001571,
+   "absolute_error": 4.0458303374180105e-10,
+   "relative_error": 1.3132696024095469e-11,
+   "allowed_error": 1.308073097100157e-06,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 1",
+   "quantity": "Support moment C vs independent Three-Moment (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-08
+   }
+  },
+  {
+   "calculated": -181.3668360044488,
+   "reference": -181.36683600018335,
+   "absolute_error": 4.265444886186742e-09,
+   "relative_error": 2.351832882050404e-11,
+   "allowed_error": 2.8136683600018332e-06,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 1",
+   "quantity": "Support moment D vs independent Three-Moment (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-08
+   }
+  },
+  {
+   "calculated": 150.13498342074982,
+   "reference": 150.135,
+   "absolute_error": 1.657925017184425e-05,
+   "relative_error": 1.1042894842537883e-07,
+   "allowed_error": 0.0005,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 1",
+   "quantity": "Reaction A vs published value (kN)",
+   "tol": {
+    "atol": 0.0005,
+    "rtol": 0
+   }
+  },
+  {
+   "calculated": 283.4623688509255,
+   "reference": 283.462,
+   "absolute_error": 0.0003688509254970995,
+   "relative_error": 1.301235881695252e-06,
+   "allowed_error": 0.0005,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 1",
+   "quantity": "Reaction B vs published value (kN)",
+   "tol": {
+    "atol": 0.0005,
+    "rtol": 0
+   }
+  },
+  {
+   "calculated": 102.38941966280512,
+   "reference": 102.389,
+   "absolute_error": 0.0004196628051289508,
+   "relative_error": 4.098709872436989e-06,
+   "allowed_error": 0.0005,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 1",
+   "quantity": "Reaction C vs published value (kN)",
+   "tol": {
+    "atol": 0.0005,
+    "rtol": 0
+   }
+  },
+  {
+   "calculated": 350.2865952664092,
+   "reference": 350.287,
+   "absolute_error": 0.0004047335907557681,
+   "relative_error": 1.1554342318035443e-06,
+   "allowed_error": 0.0005,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 1",
+   "quantity": "Reaction D vs published value (kN)",
+   "tol": {
+    "atol": 0.0005,
+    "rtol": 0
+   }
+  },
+  {
+   "calculated": 163.72663279911023,
+   "reference": 163.727,
+   "absolute_error": 0.0003672008897694923,
+   "relative_error": 2.2427631958656316e-06,
+   "allowed_error": 0.0005,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 1",
+   "quantity": "Reaction E vs published value (kN)",
+   "tol": {
+    "atol": 0.0005,
+    "rtol": 0
+   }
+  },
+  {
+   "calculated": 187.8376103895735,
+   "reference": 187.83761,
+   "absolute_error": 3.8957350056989526e-07,
+   "relative_error": 2.0739909359467214e-09,
+   "allowed_error": 5e-07,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 1",
+   "quantity": "Maximum sagging moment vs published (kN.m)",
+   "tol": {
+    "atol": 5e-07,
+    "rtol": 0
+   }
+  },
+  {
+   "calculated": -181.36683600444883,
+   "reference": -181.366836,
+   "absolute_error": 4.448821755431709e-09,
+   "relative_error": 2.452941151507825e-11,
+   "allowed_error": 5e-07,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 1",
+   "quantity": "Maximum hogging moment vs published (kN.m)",
+   "tol": {
+    "atol": 5e-07,
+    "rtol": 0
+   }
+  },
+  {
+   "calculated": 1050.0,
+   "reference": 1050.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 2.05e-06,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 1",
+   "quantity": "Total applied load from inputs (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 12537.5,
+   "reference": 12537.5,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.3537500000000002e-05,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 1",
+   "quantity": "Applied moment about A from inputs (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 1050.0,
+   "reference": 1050.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 2.05e-06,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 1",
+   "quantity": "Sum of reactions (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 12537.5,
+   "reference": 12537.5,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.3537500000000002e-05,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 1",
+   "quantity": "Reaction moment about A (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 1",
+   "quantity": "Internal verification suite (8 checks)",
+   "passed": true,
+   "calculated": null,
+   "reference": null,
+   "absolute_error": null,
+   "allowed_error": null,
+   "tol": "1e-6"
+  },
+  {
+   "calculated": 150.13498342074982,
+   "reference": 150.13498342148733,
+   "absolute_error": 7.375149380095536e-10,
+   "relative_error": 4.91234568520957e-12,
+   "allowed_error": 2.501349834214873e-06,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 135000",
+   "quantity": "Reaction A vs independent Three-Moment (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-08
+   }
+  },
+  {
+   "calculated": 283.46236885092554,
+   "reference": 283.462368849445,
+   "absolute_error": 1.4805436876486056e-09,
+   "relative_error": 5.223069621756265e-12,
+   "allowed_error": 3.83462368849445e-06,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 135000",
+   "quantity": "Reaction B vs independent Three-Moment (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-08
+   }
+  },
+  {
+   "calculated": 102.38941966280512,
+   "reference": 102.38941966458597,
+   "absolute_error": 1.7808474694902543e-09,
+   "relative_error": 1.7392885664593784e-11,
+   "allowed_error": 2.02389419664586e-06,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 135000",
+   "quantity": "Reaction C vs independent Three-Moment (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-08
+   }
+  },
+  {
+   "calculated": 350.2865952664092,
+   "reference": 350.2865952645184,
+   "absolute_error": 1.890839484985918e-09,
+   "relative_error": 5.397978428372497e-12,
+   "allowed_error": 4.502865952645184e-06,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 135000",
+   "quantity": "Reaction D vs independent Three-Moment (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-08
+   }
+  },
+  {
+   "calculated": 163.72663279911023,
+   "reference": 163.7266327999633,
+   "absolute_error": 8.530776085535763e-10,
+   "relative_error": 5.2103777740048135e-12,
+   "allowed_error": 2.637266327999633e-06,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 135000",
+   "quantity": "Reaction E vs independent Three-Moment (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-08
+   }
+  },
+  {
+   "calculated": -179.19009947550109,
+   "reference": -179.19009947107597,
+   "absolute_error": 4.425118049766752e-09,
+   "relative_error": 2.469510348411316e-11,
+   "allowed_error": 2.7919009947107597e-06,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 135000",
+   "quantity": "Support moment B vs independent Three-Moment (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-08
+   }
+  },
+  {
+   "calculated": -30.807309709611136,
+   "reference": -30.80730971001571,
+   "absolute_error": 4.0457237560076464e-10,
+   "relative_error": 1.3132350062661748e-11,
+   "allowed_error": 1.308073097100157e-06,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 135000",
+   "quantity": "Support moment C vs independent Three-Moment (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-08
+   }
+  },
+  {
+   "calculated": -181.36683600444883,
+   "reference": -181.36683600018335,
+   "absolute_error": 4.265473307896173e-09,
+   "relative_error": 2.3518485528919192e-11,
+   "allowed_error": 2.8136683600018332e-06,
+   "passed": true,
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 135000",
+   "quantity": "Support moment D vs independent Three-Moment (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-08
+   }
+  },
+  {
+   "test": 6,
+   "case": "Original five-support continuous beam",
+   "representation": "7 elements, EI = 135000",
+   "quantity": "Internal verification suite (8 checks)",
+   "passed": true,
+   "calculated": null,
+   "reference": null,
+   "absolute_error": null,
+   "allowed_error": null,
+   "tol": "1e-6"
+  },
+  {
+   "calculated": 47.26041666666668,
+   "reference": 47.260416666666664,
+   "absolute_error": 1.4210854715202004e-14,
+   "relative_error": 3.006925397089249e-16,
+   "allowed_error": 1.0472604166666667e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Reaction A (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 211.88802083333337,
+   "reference": 211.88802083333334,
+   "absolute_error": 2.842170943040401e-14,
+   "relative_error": 1.3413551799023092e-16,
+   "allowed_error": 1.2118880208333334e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Reaction B (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 35.55989583333325,
+   "reference": 35.559895833333336,
+   "absolute_error": 8.526512829121202e-14,
+   "relative_error": 2.397789034333608e-15,
+   "allowed_error": 1.0355598958333332e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Reaction C (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 195.29166666666663,
+   "reference": 195.29166666666666,
+   "absolute_error": 2.842170943040401e-14,
+   "relative_error": 1.4553467598244e-16,
+   "allowed_error": 1.1952916666666667e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Reaction D (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 489.99999999999994,
+   "reference": 490.0,
+   "absolute_error": 5.684341886080802e-14,
+   "relative_error": 1.1600697726695514e-16,
+   "allowed_error": 1.4900000000000001e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Sum of reactions = total load (kN)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": -166.43750000000006,
+   "reference": -166.4375,
+   "absolute_error": 5.684341886080802e-14,
+   "relative_error": 3.4153011707582735e-16,
+   "allowed_error": 1.1664375e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Support moment B (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": -43.249999999999915,
+   "reference": -43.25,
+   "absolute_error": 8.526512829121202e-14,
+   "relative_error": 1.9714480529760003e-15,
+   "allowed_error": 1.04325e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Support moment C (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": -210.00000000000006,
+   "reference": -210.0,
+   "absolute_error": 5.684341886080802e-14,
+   "relative_error": 2.7068294695622867e-16,
+   "allowed_error": 1.2099999999999998e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Support moment D (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 2.8421709430404007e-13,
+   "reference": 0.0,
+   "absolute_error": 2.8421709430404007e-13,
+   "relative_error": null,
+   "allowed_error": 1e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Largest difference over the whole moment diagram (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 0.0
+   }
+  },
+  {
+   "calculated": 161.0078125,
+   "reference": 161.0078125,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.1610078124999999e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Maximum sagging moment (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 9.0,
+   "reference": 9.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.009e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Location of maximum sagging moment (m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": -210.0000000000001,
+   "reference": -210.0,
+   "absolute_error": 1.1368683772161603e-13,
+   "relative_error": 5.413658939124573e-16,
+   "allowed_error": 1.2099999999999998e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Maximum hogging moment, at the overhang root (kN.m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 20.0,
+   "reference": 20.0,
+   "absolute_error": 0.0,
+   "relative_error": 0.0,
+   "allowed_error": 1.02e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Location of maximum hogging moment (m)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 0.0,
+   "reference": 0.0,
+   "absolute_error": 0.0,
+   "relative_error": null,
+   "allowed_error": 1e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Displacement at x = 0 m (normalised)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": -58.56250000000003,
+   "reference": -58.5625,
+   "absolute_error": 2.842170943040401e-14,
+   "relative_error": 4.853226797080727e-16,
+   "allowed_error": 1.0585625e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Rotation at x = 0 m (normalised)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": -47.39062500000005,
+   "reference": -47.390625,
+   "absolute_error": 4.973799150320701e-14,
+   "relative_error": 1.049532296803577e-15,
+   "allowed_error": 1.047390625e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Displacement at x = 3 m (normalised)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 41.609375000000014,
+   "reference": 41.609375,
+   "absolute_error": 1.4210854715202004e-14,
+   "relative_error": 3.4153011707582735e-16,
+   "allowed_error": 1.041609375e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Rotation at x = 3 m (normalised)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 0.0,
+   "reference": 0.0,
+   "absolute_error": 0.0,
+   "relative_error": null,
+   "allowed_error": 1e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Displacement at x = 6 m (normalised)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": -107.87500000000003,
+   "reference": -107.875,
+   "absolute_error": 2.842170943040401e-14,
+   "relative_error": 2.634689170836988e-16,
+   "allowed_error": 1.107875e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Rotation at x = 6 m (normalised)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": -623.7500000000002,
+   "reference": -623.75,
+   "absolute_error": 2.2737367544323206e-13,
+   "relative_error": 3.6452693457832795e-16,
+   "allowed_error": 1.62375e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Displacement at x = 10 m (normalised)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 24.56249999999996,
+   "reference": 24.5625,
+   "absolute_error": 3.907985046680551e-14,
+   "relative_error": 1.591037169132031e-15,
+   "allowed_error": 1.0245625e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Rotation at x = 10 m (normalised)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 0.0,
+   "reference": 0.0,
+   "absolute_error": 0.0,
+   "relative_error": null,
+   "allowed_error": 1e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Displacement at x = 14 m (normalised)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 178.3750000000002,
+   "reference": 178.375,
+   "absolute_error": 1.9895196601282805e-13,
+   "relative_error": 1.1153579033655392e-15,
+   "allowed_error": 1.178375e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Rotation at x = 14 m (normalised)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 316.6875000000005,
+   "reference": 316.6875,
+   "absolute_error": 5.115907697472721e-13,
+   "relative_error": 1.6154435200229632e-15,
+   "allowed_error": 1.3166875e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Displacement at x = 17 m (normalised)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 24.812500000000046,
+   "reference": 24.8125,
+   "absolute_error": 4.618527782440651e-14,
+   "relative_error": 1.861371398464746e-15,
+   "allowed_error": 1.0248125e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Rotation at x = 17 m (normalised)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": 0.0,
+   "reference": 0.0,
+   "absolute_error": 0.0,
+   "relative_error": null,
+   "allowed_error": 1e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Displacement at x = 20 m (normalised)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": -311.37500000000034,
+   "reference": -311.375,
+   "absolute_error": 3.410605131648481e-13,
+   "relative_error": 1.0953368548048113e-15,
+   "allowed_error": 1.311375e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Rotation at x = 20 m (normalised)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": -1496.6250000000016,
+   "reference": -1496.625,
+   "absolute_error": 1.5916157281026244e-12,
+   "relative_error": 1.0634699594772401e-15,
+   "allowed_error": 2.496625e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Displacement at x = 23 m (normalised)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "calculated": -581.3750000000007,
+   "reference": -581.375,
+   "absolute_error": 6.821210263296962e-13,
+   "relative_error": 1.1732892304101417e-15,
+   "allowed_error": 1.581375e-06,
+   "passed": true,
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Rotation at x = 23 m (normalised)",
+   "tol": {
+    "atol": 1e-06,
+    "rtol": 1e-09
+   }
+  },
+  {
+   "test": 7,
+   "case": "Three spans with overhang, all load types",
+   "representation": "8 nodes, 7 elements",
+   "quantity": "Internal verification suite (8 checks)",
+   "passed": true,
+   "calculated": null,
+   "reference": null,
+   "absolute_error": null,
+   "allowed_error": null,
+   "tol": "1e-6"
+  }
+ ]
+}

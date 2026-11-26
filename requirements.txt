@@ -1,0 +1,7 @@
+# Versions with which the book's results were produced (Python 3.13). Newer versions are expected to work.
+numpy>=2.0        # tested with 2.5.3  (np.trapezoid needs numpy 2.0 or later)
+matplotlib>=3.8   # tested with 3.11.2
+pytest>=8.0       # tested with 9.1.1
+nbformat>=5.9     # needed only to run the notebook from the command line
+nbclient>=0.10    # needed only to run the notebook from the command line
+ipykernel>=6.29   # needed only to run the notebook from the command line
